@@ -10,13 +10,20 @@ body {
   background-position: fixed;
 }
 
+p {
+  font-family: monospace;
+  font-size: 25px;
+  line-height: 10px;
+}
+
 .jumbotron {
   width: 50vw;
   min-width: 400px;
   text-align: center;
   background-color: rgba(73, 64, 97, 0);
   color: rgba(237, 20, 39);
-  text-shadow: -3px 3px 5px black;
+  text-shadow: -3px 3px 5px black, -4px 4px 5px rgb(104, 15, 15);
+  margin-top: 3vh;
 }
 
 .jumbotron h1 {
@@ -31,23 +38,51 @@ body {
   margin-right: 75px;
 }
 
-.img {
-  display: flex;
+#robo {
+  width: 50vw;
+  min-width: 400px;
+  background-color: rgba(73, 64, 97, 0);
+  color: rgb(255, 230, 230);
+  text-shadow: -5px 5px 4px black, -4px 6px 4px rgb(25, 62, 104);
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+#robo h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#robo p {
+  margin-left: 5vw;
+}
+
+input#input {
+  width: 130px;
+  padding: 4px;
+  margin-left: 15vw;
+} 
+
+.row {  
   justify-content: center;
-  margin-left: 75px;
+  align-content: center;
+  width: 80vw;
+  margin-top: 10vh;
 }
 
 #result {
   display: none;
 }
 
-#robot {
-  width: 150px;
+#user {
+  align-self: center;
+  float: left;
 }
 
-#house {
-  margin-top: 50px;
-  overflow: hidden;
-  display: fixed;
-  z-index: -10;
+#roboger {
+  float: left;
+}
+
+#roboger p {
+  line-height: 25px;
 }

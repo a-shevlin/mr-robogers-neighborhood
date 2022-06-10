@@ -34,7 +34,7 @@ $(document).ready(function() {
     const output = inputRobo(input);
     $("#roboger1").html(output);
     $("#user1").text(input);
-    $("#input").hide();
+    $("#robo").hide();
     $("#result").show();
   });
 })
