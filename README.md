@@ -39,3 +39,14 @@ Describe: inputArray()
   Test: It should return an array containing every number between 0 and input.
   Code: inputArray(4);
   Expected Output: [0, 1, 2, 3, 4]
+
+  Test: It should convert a number array to a string array.
+  Code: inputArray(4);
+  Expected Output: ['0', '1', '2', '3', '4']
+
+Describe: inputRobo()
+  
+  Test: It should return any number containing 3 as "Won't you be my neighbor?"
+  Code: inputRobo(14);
+  Expected Output: ['0', '1', '2', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', '11', '12', "Won't you be my neighbor.?", '14']
+  
