@@ -1,4 +1,4 @@
-# _Mr Robojer's Neighborhood_
+# _Mr Roboger's Neighborhood_
 
 #### By _**Alex Shevlin**_
 
@@ -47,7 +47,7 @@ Describe: inputArray()
 Describe: inputRobo()
   
   >Test: It should return any number containing 3 as "Won't you be my neighbor?"  
-  Code: inputRobo(14);  
+  Code: `inputRobo(14);`  
   Expected Output:  
   >  `['0', '1', '2', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', '11', '12', "Won't you be my neighbor.?", '14']`
 

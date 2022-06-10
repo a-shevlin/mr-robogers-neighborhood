@@ -3,9 +3,48 @@ body {
   overflow-x: hidden;
   max-width: 100vw;
   max-height: 100vh;
+  font-family: 'Coda', cursive;
+  background-image: url(../img/roborogers2.png), linear-gradient(#1b64c3, #3aa8dd);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
 }
+
+
+
+.jumbotron {
+  width: 50vw;
+  min-width: 400px;
+  text-align: center;
+  background-color: rgba(73, 64, 97, 0);
+  color: rgba(237, 20, 39);
+  text-shadow: -3px 3px 5px black;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  font-family: 'Yellowtail', cursive;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-left: 75px;
+}
+
+
 
 #result {
   display: none;
 }
 
+#robot {
+  width: 150px;
+}

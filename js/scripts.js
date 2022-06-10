@@ -35,6 +35,6 @@ $(document).ready(function() {
     $("#roboger1").html(output);
     $("#user1").text(input);
     $("#input").hide();
-    $("#result").show(1000);
+    $("#result").show();
   });
 })
