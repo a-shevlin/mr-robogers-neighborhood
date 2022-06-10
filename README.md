@@ -49,4 +49,11 @@ Describe: inputRobo()
   Test: It should return any number containing 3 as "Won't you be my neighbor?"
   Code: inputRobo(14);
   Expected Output: ['0', '1', '2', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', '11', '12', "Won't you be my neighbor.?", '14']
-  
+
+  Test: It should return any number containing 2 as "Boop!"
+  Code: inputRobo(14);
+  Expected Output: ['0', '1', 'Boop!', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', '11', 'Boop!', "Won't you be my neighbor.?", '14']
+
+  Test: It should return any number containing 1 as "Beep!"
+  Code: inputRobo(14);
+  Expected Output: ['0', 'Beep!', 'Boop!', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', 'Beep!', 'Boop!', "Won't you be my neighbor.?", 'Beep!']
