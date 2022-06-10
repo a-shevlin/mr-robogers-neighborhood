@@ -1,6 +1,6 @@
 body {
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   max-width: 100vw;
   max-height: 100vh;
   font-family: 'Coda', cursive;
@@ -9,8 +9,6 @@ body {
   background-size: cover;
   background-position: fixed;
 }
-
-
 
 .jumbotron {
   width: 50vw;
@@ -39,12 +37,17 @@ body {
   margin-left: 75px;
 }
 
-
-
 #result {
   display: none;
 }
 
 #robot {
   width: 150px;
+}
+
+#house {
+  margin-top: 50px;
+  overflow: hidden;
+  display: fixed;
+  z-index: -10;
 }
