@@ -21,18 +21,19 @@ function inputRobo(input) {
       roboArray.push(number);
     }
   });
-  return roboArray;
+  return roboArray.join(", ");
 }
 
-$(document).ready(function() {
-  $("form#input").submit(function(event) {
-    event.preventDefault();
-    const input = $("input#number").val();
-    const output = inputRobo(input);
-    let stringOut = output.forEach(function(element){
-      output.push(number + " ");
-    });
+//UI Logic
 
+
+$(document).ready(function() {
+  $("form#robo").submit(function(event) {
+    event.preventDefault();
+    const input = $("#input").val();
+    const output = inputRobo(input);
+    $("#roboger1").html(output);
+    $("#user1").text(input);
     // $("#input").hide();
     // $("#result").show(1000);
     // $("#user1").append(input);
