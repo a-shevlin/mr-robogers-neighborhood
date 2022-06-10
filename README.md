@@ -14,7 +14,7 @@
 
 _This webpage allows users to fill out a form. Upon submission of form users will find a recommended language with clickable links leading to resources about that language._
 
-_The link for this webpage can be found [here](a-shevlin.github.io/language-suggester)._
+_The link for this webpage can be found [here](a-shevlin.github.io/mr-robojers-neighborhood)._
 
 # Setup/Installation Requirements
 
@@ -33,8 +33,9 @@ _The link for this webpage can be found [here](a-shevlin.github.io/language-sugg
 Copyright (c) _2022_ _Alex Shevlin_
 
 ## Tests
-Describe: 
 
-  Test:
-  Code:
-  Expected Output:
+Describe: inputArray() 
+
+  Test: It should return an array containing every number between 0 and input.
+  Code: inputArray(4);
+  Expected Output: [0, 1, 2, 3, 4]
