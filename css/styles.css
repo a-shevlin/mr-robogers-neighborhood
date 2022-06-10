@@ -7,7 +7,7 @@ body {
   background-image: url(../img/roborogers2.png), linear-gradient(#1b64c3, #3aa8dd);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: 0vw 0vh;
 }
 
 p {
@@ -61,7 +61,19 @@ input#input {
   width: 130px;
   padding: 4px;
   margin-left: 15vw;
-} 
+  box-shadow:  -5px 5px 5px rgba(97, 67, 88, 0.452), 5px -5px 5px rgba(97, 67, 78, 0.452);
+}
+
+.btn {
+  margin-left: 15vw;
+  background-color: rgba(187, 104, 104, 0.479);
+  border: 5px inset rgba(117, 65, 69, 0.7);
+  box-shadow: -5px 5px 5px 2px rgba(196, 82, 130, 0.226), -2px 2px 5px 5px inset rgba(102, 63, 78, 0.466);
+}
+
+.btn-block {
+  margin-left: 0vw;
+}
 
 .row {  
   justify-content: center;
@@ -85,4 +97,8 @@ input#input {
 
 #roboger p {
   line-height: 25px;
+}
+
+#house {
+  margin-left: -21vw;
 }

@@ -12,7 +12,7 @@ function inputRobo(input) {
   const roboArray = [];
   stringArray.forEach(function(number) {
     if (number.includes(3)) {
-      roboArray.push("Won't you be my neighbor.?")
+      roboArray.push("Won't you be my neighbor?")
     } else if (number.includes(2)) {
       roboArray.push("Boop!")
     } else if (number.includes(1)) {
@@ -21,7 +21,7 @@ function inputRobo(input) {
       roboArray.push(number);
     }
   });
-  return roboArray.join(", ");
+  return roboArray.join(" ");
 }
 
 //UI Logic
