@@ -114,11 +114,27 @@ input#input {
   min-width: 400px;
   background-color: rgba(73, 64, 97, 0);
   color: rgb(255, 230, 230);
+}
+
+#roboger h3 {
   text-shadow: -5px 5px 4px black, -4px 6px 4px rgb(25, 62, 104);
 }
 
-p #msg {
-  z-index: -1;
-  height: 1em;
-  width: 1em;
+#roboger p {
+  font-size: smaller;
+  letter-spacing: -1px;
+  line-height: 12px;
+}
+
+#msg {
+  z-index: -3;
+  width: 100%;
+  height: fit-content;
+} 
+
+.msgAdj {
+  position: absolute;
+  width: 290px;
+  margin-top: 25px;
+  left: 50px;
 }
