@@ -60,15 +60,3 @@ Describe: inputRobo()
   Code: `inputRobo(14);`  
   Expected Output:   
   `['0', 'Beep!', 'Boop!', "Won't you be my neighbor.?", '4', '5', '6', '7', '8', '9', '10', 'Beep!', 'Boop!', "Won't you be my neighbor.?", 'Beep!']`
-
-Describe: $("#roboger1").html(output);
-  
-  >Test: It should add text to #roboger1 based on output.  
-  Code:   
-    `const input = 6;`  
-    `const output = inputRobo(input);`  
-    `$("#roboger1").html(output);`  
-  Expected Output:   
-    `jQuery.fn.init [span#roboger1]`  
-      `0: span#roboger1`  
-        `innerText: "0, Beep!, Boop!, Won't you be my neighbor.?, 4, 5, 6"`

@@ -26,7 +26,6 @@ function inputRobo(input) {
 
 //UI Logic
 
-
 $(document).ready(function() {
   $("form#robo").submit(function(event) {
     event.preventDefault();
